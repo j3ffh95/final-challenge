@@ -30,3 +30,46 @@ a {
   text-decoration: none;
   color: var(--clr-dark);
 }
+
+.btn {
+  display: inline-block;
+  background-color: var(--clr-primary);
+  color: var(--clr-light);
+  padding: 0.2em 1em;
+  border-radius: 25px;
+}
+
+.container {
+  width: min(1200px, 90%);
+  margin: 0 auto;
+  padding: 0 0.5em;
+}
+
+/* Layout Classes */
+.main-header {
+  font-family: "oswald";
+}
+
+.nav {
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  text-align: center;
+  min-height: 5rem;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  color: var(--clr-light);
+  margin: 0 0.5em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  opacity: 0.7;
+}
