@@ -32,6 +32,12 @@ a {
   color: var(--clr-dark);
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.5em 0;
+}
+
 .primary-text {
   color: var(--clr-primary);
 }
@@ -160,4 +166,31 @@ p {
 
 .box-title {
   font-size: clamp(1.2rem, 4vw, 1.66rem);
+}
+
+/* Footer Section */
+.main-footer {
+  background-color: var(--clr-semi-dark);
+  padding: 2em 0;
+  color: var(--clr-light);
+}
+
+.footer-header {
+  font-size: clamp(1.3rem, 5vw, 2rem);
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.footer-col-header {
+  font-size: clamp(1rem, 2vw, 1.66rem);
+  color: var(--clr-primary);
+}
+
+.footer-row .col {
+  margin: 1.5em 0;
+}
+
+.footer-row a {
+  font-size: clamp(0.8rem, 3vw, 1rem);
+  color: var(--clr-light);
 }
