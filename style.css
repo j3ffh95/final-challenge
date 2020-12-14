@@ -14,10 +14,11 @@
 
 html,
 body {
-  font-family: "monserat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.125rem;
   color: var(--clr-dark);
   margin: 0;
+  line-height: 1.5;
 }
 
 img {
@@ -31,18 +32,28 @@ a {
   color: var(--clr-dark);
 }
 
+.primary-text {
+  color: var(--clr-primary);
+}
+
 .btn {
   display: inline-block;
   background-color: var(--clr-primary);
   color: var(--clr-light);
   padding: 0.2em 1em;
   border-radius: 25px;
+  text-transform: uppercase;
 }
 
 .container {
   width: min(1200px, 90%);
   margin: 0 auto;
   padding: 0 0.5em;
+}
+
+h1,
+h2 {
+  margin: 0;
 }
 
 /* Layout Classes */
@@ -58,7 +69,6 @@ a {
 }
 
 .logo {
-  margin: 0;
   font-size: 1.5rem;
 }
 
@@ -72,4 +82,26 @@ a {
 .nav-link:hover,
 .nav-link:focus {
   opacity: 0.7;
+}
+
+/* Hero Section */
+.hero {
+  background-color: var(--clr-semi-dark);
+  color: var(--clr-light);
+  min-height: 25rem;
+  padding: 3em 0;
+}
+
+.hero-text {
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  line-height: 1.2;
+  padding: 0 0 1em;
+}
+
+.hero-content {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero-col-2 {
+  font-size: clamp(1rem, 4vw, 1.3rem);
 }
