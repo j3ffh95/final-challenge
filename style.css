@@ -1,7 +1,7 @@
 :root {
   --clr-primary: #a59678;
   --clr-light: #fff;
-  --clr-gray: #6f737f;
+  --clr-gray: #e2e3e6;
   --clr-semi-dark: #3b4050;
   --clr-dark: #2e323f;
 }
@@ -104,4 +104,24 @@ h2 {
 
 .hero-col-2 {
   font-size: clamp(1rem, 4vw, 1.3rem);
+}
+/* Section One */
+.section-one {
+  padding: 1.5em 0;
+  background-color: var(--clr-gray);
+  text-align: center;
+}
+
+.section-one .col {
+  margin: 2em 0;
+}
+
+.section-one-header {
+  font-family: "Oswald";
+  color: var(--clr-primary);
+  font-size: clamp(1.2rem, 4vw, 1.66rem);
+}
+
+.section-one-header + p {
+  font-size: clamp(0.8rem, 3vw, 1rem);
 }
