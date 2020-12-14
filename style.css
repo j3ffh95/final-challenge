@@ -53,6 +53,7 @@ a {
 
 h1,
 h2 {
+  font-family: "Oswald", sans-serif;
   margin: 0;
 }
 
@@ -61,7 +62,7 @@ p {
 }
 
 /* Layout Classes */
-.main-header {
+.header {
   font-family: "oswald";
 }
 
@@ -123,5 +124,40 @@ p {
 .section-one-header {
   font-family: "Oswald";
   color: var(--clr-primary);
+  font-size: clamp(1.2rem, 4vw, 1.66rem);
+}
+
+/* Main Section */
+.main-section {
+  padding: 2em 0;
+}
+.main-header {
+  color: var(--clr-primary);
+  font-size: clamp(1.3rem, 5vw, 2rem);
+  text-align: center;
+}
+
+.main-content {
+  font-size: clamp(0.85rem, 3vw, 1.16rem);
+}
+
+.img-container {
+  padding: 1em 0;
+}
+
+/* Aside Section */
+.aside {
+  margin-top: 2em;
+}
+
+.box {
+  background-color: var(--clr-semi-dark);
+  color: var(--clr-light);
+  padding: 1em 1.5em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.box-title {
   font-size: clamp(1.2rem, 4vw, 1.66rem);
 }
