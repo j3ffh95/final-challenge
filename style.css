@@ -56,6 +56,10 @@ h2 {
   margin: 0;
 }
 
+p {
+  font-size: clamp(0.8rem, 3vw, 1rem);
+}
+
 /* Layout Classes */
 .main-header {
   font-family: "oswald";
@@ -120,8 +124,4 @@ h2 {
   font-family: "Oswald";
   color: var(--clr-primary);
   font-size: clamp(1.2rem, 4vw, 1.66rem);
-}
-
-.section-one-header + p {
-  font-size: clamp(0.8rem, 3vw, 1rem);
 }
